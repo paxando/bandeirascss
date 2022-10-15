@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bandeiradinamarca   {
+    background: linear-gradient(90deg, transparent, transparent 30%, white 30%, white 40%, transparent 40%, transparent),
+              linear-gradient(0deg, red, red 43%, white 43%, white 58%, red 58%, red);
+  width: 630px;
+  height: 350px;
+}
+
+.bandeiraucrania {
+    width: 630px;
+    height: 350px;
+    position: relative;
+    background: linear-gradient(to bottom, #1b9ee5 0%,#1b9ee5 49.99%,#f4dc00 50%,#f4dc00 100%);
+
+
+}
+
+.bandeirarussia {
+    width: 630px;
+    height: 350px;
+    position: relative;
+    background: linear-gradient(to bottom, blue 50%, red 50%);
+        
+}
+
+
+.bandeiralib {
+    width: 630px;
+    height: 350px;
+    background: linear-gradient(#ed1c24 25%, #fff 25%, #fff 75%, #ed1c24 0);
+    display: grid;
+    place-items: center;
+  }
+
+
+  .bandeirabarbados {
+    width: 630px;
+    height: 350px;
+    position: relative;
+    display: grid;
+    background: linear-gradient(to right,blue 33%, yellow 33%, yellow 67%, blue 0);
+    place-items: center;
+    
+  }
+
+
+
+
+
