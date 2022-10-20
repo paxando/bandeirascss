@@ -5,14 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Dinamarca */
 .bandeiradinamarca   {
     background: linear-gradient(90deg, transparent, transparent 30%, white 30%, white 40%, transparent 40%, transparent),
               linear-gradient(0deg, red, red 43%, white 43%, white 58%, red 58%, red);
   width: 630px;
   height: 350px;
 }
-
+/* Ucrania */
 .bandeiraucrania {
     width: 630px;
     height: 350px;
@@ -21,7 +21,7 @@
 
 
 }
-
+/* Russia */
 .bandeirarussia {
     width: 630px;
     height: 350px;
@@ -30,7 +30,7 @@
         
 }
 
-
+/* Libano */
 .bandeiralib {
     width: 630px;
     height: 350px;
@@ -39,7 +39,7 @@
     place-items: center;
   }
 
-
+  /* Barbados */
   .bandeirabarbados {
     width: 630px;
     height: 350px;
@@ -50,6 +50,7 @@
     
   }
 
+/* Estados Unidos */
   
   .estados-unidos {
     width: 630px;
@@ -69,4 +70,68 @@
      background-color: white;
   }
 
+  /* Brasil */
+
+  .verde {
+    width:630px;
+    height: 420px;
+    background: #00A859;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 30px
+}
+
+.amarelo-cima {
+    width: 1px;
+    height: 1px;
+    border: solid 8.3em transparent;
+    border-bottom: solid 5.3em #FFCC29;
+    border-top-width: 0;
+    position: relative;
+    top: 1.7em;
+    left: 1.7em;
+}
+
+.amarelo-baixo {
+    width: 1px;
+    height: 1px;
+    border: solid 8.3em transparent;
+    border-top: solid 5.3em #FFCC29;
+    border-bottom-width: 0;
+    position: relative;
+    top: 1.7em;
+    left: 1.7em;
+}
+
+.azul-cima {
+    width: 7em;
+    height: 7em;
+    background: #3E4095;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5em;
+    left: 6.5em;
+    overflow: hidden;
+}
+
+.faixa-branca {
+  width: 17em;
+    height: 17em;
+    background: #FFF;
+    border-radius: 50%;
+    position: absolute;
+  top: 2em;
+  left: -7em;
+}
+
+.azul-baixo {
+    width: 16em;
+    height: 16em;
+    background: #3E4095;
+    border-radius: 50%;
+    position: absolute;
+  top: 2.5em;
+  left: -6.5em;
+}
 
